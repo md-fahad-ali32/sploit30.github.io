@@ -1,11 +1,14 @@
 {
   "name": "demo",
   "private": true,
+  "homepage": "http://demo.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export",
+    "export": "next export && touch out/.nojekyll",
+    "build-ssg": "next build && next export && touch out/.nojekyll",
+    "deploy": "gh-pages -d out -t true",
     "lint": "next lint"
   },
   "dependencies": {
