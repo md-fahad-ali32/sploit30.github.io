@@ -1,7 +1,7 @@
 {
   "name": "demo",
   "private": true,
-  "homepage": "http://demo.github.io",
+  "homepage": "https://demo.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
