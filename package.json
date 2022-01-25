@@ -1,7 +1,6 @@
 {
   "name": "demo",
   "private": true,
-  "homepage": "https://demo.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
